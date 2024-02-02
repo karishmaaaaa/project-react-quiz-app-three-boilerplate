@@ -1,0 +1,156 @@
+body {
+  background-color: #473a8d;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.begin {
+  background-color: green;
+  color: white;
+  width: 200px;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 100px;
+  margin-left: 610px;
+}
+
+.front  {
+  margin: 3%;
+  height: 100%;
+}
+
+.game {
+  background-color: white;
+  width: 80vw;
+  height: 80vh;
+  padding: 10px;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+h2,
+.question {
+  text-align: center;
+}
+
+.question {
+  margin-top: 40px;
+  font-size: larger;
+}
+
+.choose {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin: 120px 30px 10px 30px;
+}
+
+.option {
+  background-color: rgb(0, 191, 255);
+  height: 40px;
+  border-radius: 20px;
+  text-align: center;
+  width: 500px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+  margin: 60px 40% 0px 38%;
+}
+
+.before {
+  font-size: small;
+  background-color: rgb(70, 124, 210);
+  border: 0px;
+  padding: 5px;
+  margin: 0px 5px;
+  border-radius: 10%;
+}
+.next {
+  background-color: rgb(55, 207, 55);
+  border: 0px;
+  margin: 0px 5px;
+  padding: 5px 15px;
+  border-radius: 10%;
+
+}
+
+.end{
+  background-color: red;
+  margin: 0px 5px;
+  border: 0px;
+  padding: 5px 15px;
+  border-radius: 10%;
+
+}
+
+.done{
+  background-color: rgb(163, 171, 14);
+  margin: 0px 5px;
+  border: 0px;
+  padding: 5px 15px;
+  border-radius: 10%;
+
+}
+
+.final{
+  margin-top: 10%;
+}
+.result {
+  color: green;
+  text-align: center;
+}
+
+.comm {
+  background-color: white;
+  border-left: 5px solid rgb(151, 86, 255);
+  width: 40vw;
+  height: 40vh;
+  padding: 20px;
+  margin: auto;
+}
+
+h3{
+  text-align: center;
+}
+
+.score{
+  color: blue;
+  font-size: 1.8rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.Details {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 5px;
+}
+
+.Btns {
+  margin: 30px 32%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.once{
+  background-color: rgb(192, 192, 192);
+  border-color: aliceblue;
+  color: rgb(133, 121, 121);
+}
+.return{
+  color: rgb(0, 137, 0);
+  border-color: rgb(0, 137, 0);
+  background-color: rgb(187, 255, 187);
+}
+
+
